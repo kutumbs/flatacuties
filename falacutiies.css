@@ -1,0 +1,86 @@
+@font-face {
+  font-family: curs;
+  src: url(/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+body {
+  font-family: curs;
+  margin: 0;
+  padding: 0;
+  background-color:lightgray;
+  font-size: 25px;
+}
+
+header {
+  background-color:darkblue;
+  color: lightgray;
+  text-align: center;
+  padding: 1rem 0;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 2rem;
+}
+
+section {
+  background-color: lightgray;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 45%;
+}
+
+.animals {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.animal-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.animal-list li {
+  margin-bottom: 0.5rem;
+  padding: 0.3rem;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+.animal-list li:hover {
+  background-color: lightgrey;
+}
+
+.animal-details {
+  text-align: center;
+}
+
+.details-container {
+  margin-top: 1rem;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  background-color: darkblue;
+  color: lightgrey;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #555;
+}
